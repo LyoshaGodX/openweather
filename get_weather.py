@@ -55,6 +55,3 @@ def get_weather_data(city, api_key=None):
     else:
         return None
 
-
-if __name__ == '__main__':
-    pprint(json.loads(get_weather_data('Chicago', api_key='948658de1264323943f2a5fa716e0980')))
